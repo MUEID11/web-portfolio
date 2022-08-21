@@ -1,0 +1,26 @@
+
+body,html{
+    font-family: 'Roboto', sans-serif;
+   
+}
+h1{
+    font-size: 40px;
+}
+.name-highlight{
+    color: #FF613F;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header{
+    width: 100%;
+    margin-left: 5%;
+    padding: 3%;
+}
+.header img{
+    width: 100%;
+    margin-left:auto;
+
+
+}
