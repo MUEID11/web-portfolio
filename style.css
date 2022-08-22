@@ -6,22 +6,20 @@ body{
 h1{
     font-size: 40px;
 }
-.name-highlight{
+.orange-highlight{
     color: #FF613F;
 }
 header{
-    display: flex;
-    justify-content: space-between;
-    height: 500px;
+    height: 700px;
 }
-.header1{
+.half-width{
+    float: left;
     width: 40%;
     margin-left: 5%;
     padding: 2%;
 }
-.header1 img{
-   width: 80%;
-   margin-bottom: auto;
+.half-width img{
+   width: 100%;
 }
 .header-bg{
     background-image: url(images/header-bg.png);
@@ -34,4 +32,53 @@ header{
     border-radius: 10px;
     font-weight: 700;
     color: #fff;
+}
+main{
+    height: 700px;
+    padding-top: 50px;
+    display: flex;
+   justify-content: space-between;
+  
+}
+h2{
+    font-size: 30px;
+}
+    
+.dream-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+
+.margin{
+    margin: 50px;
+    width: 30%;
+}
+.border-shadow{
+    box-shadow: 10px 10px 40px;
+    border-radius: 5px;
+    height: 200px;
+    
+}
+.experience{
+    background-image: url(images/footer-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-bottom: 10%;
+    border:1px solid;
+    height: 450px;
+}
+#full-stack{
+    border-right: 7px solid;
+    border-image: linear-gradient(orange, #FF613F);
+    border-image-slice: 1;
+}
+#noob-web{
+    border-right: 7px solid;
+    border-image: linear-gradient( #03b5fc, rgb(24, 55, 253));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 2%;
 }
